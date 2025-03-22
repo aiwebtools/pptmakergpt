@@ -1,6 +1,7 @@
 
 import React, { useEffect, useRef } from 'react';
 import { Presentation, ArrowRight, FileDown, Search, Code, Bot } from 'lucide-react';
+import { Button } from '@/components/ui/button';
 
 const Hero = () => {
   const orbRef = useRef<HTMLDivElement>(null);
@@ -49,7 +50,7 @@ const Hero = () => {
             </h1>
             
             <p className="text-lg text-white/80">
-              Turn your ideas into professional, detailed presentations in minutes. Our AI assistant builds complete slideshows with organized content, data visualization, and beautiful visuals.
+              Turn your ideas into professional, detailed presentations in minutes. Our AI assistant builds complete slideshows with organized content, data visualization, and beautiful visuals created with DALL-E image generation, all through the ChatGPT interface.
             </p>
             
             <div className="flex flex-wrap gap-4">
@@ -70,14 +71,14 @@ const Hero = () => {
             </div>
           </div>
           
-          {/* 3D Presentation Illustration */}
+          {/* 3D Presentation Illustration - Fixed to prevent image from being cut off */}
           <div className="relative animate-float animate-delay-200">
             <div className="cyber-card rounded-lg overflow-hidden relative p-1">
-              <div className="aspect-[4/3] rounded-md overflow-hidden bg-cyber-dark border border-white/10">
+              <div className="relative w-full h-full aspect-[4/3] rounded-md overflow-hidden bg-cyber-dark border border-white/10">
                 <img 
                   src="https://ideogram.ai/assets/image/lossless/response/RY7nJyyMR_yUNcBsrt3oRg"
                   alt="PPT Presentation Crafter Illustration" 
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-contain"
                 />
               </div>
               

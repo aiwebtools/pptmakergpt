@@ -71,31 +71,33 @@ const Hero = () => {
             </div>
           </div>
           
-          {/* 3D Presentation Illustration - Fixed to prevent image from being cut off */}
+          {/* 3D Presentation Illustration - Now clickable */}
           <div className="relative animate-float animate-delay-200">
-            <div className="cyber-card rounded-lg overflow-hidden relative p-1">
-              <div className="relative w-full h-full aspect-[4/3] rounded-md overflow-hidden bg-cyber-dark border border-white/10">
-                <img 
-                  src="https://ideogram.ai/assets/image/lossless/response/RY7nJyyMR_yUNcBsrt3oRg"
-                  alt="PPT Presentation Crafter Illustration" 
-                  className="w-full h-full object-contain"
-                />
+            <a href="https://chatgpt.com/g/g-3Py9TlUa1-ppt-presentation-crafter" className="block">
+              <div className="cyber-card rounded-lg overflow-hidden relative p-1 transition-transform hover:scale-[1.01] cursor-pointer">
+                <div className="relative w-full h-full aspect-[4/3] rounded-md overflow-hidden bg-cyber-dark border border-white/10">
+                  <img 
+                    src="https://ideogram.ai/assets/image/lossless/response/RY7nJyyMR_yUNcBsrt3oRg"
+                    alt="PPT Presentation Crafter Illustration" 
+                    className="w-full h-full object-contain"
+                  />
+                </div>
+                
+                {/* Floating icons */}
+                <div className="absolute -top-4 -right-4 w-16 h-16 rounded-lg cyber-card flex items-center justify-center animate-float animate-delay-400">
+                  <Search className="w-6 h-6 text-cyber-blue" />
+                </div>
+                <div className="absolute -bottom-6 -left-6 w-16 h-16 rounded-lg cyber-card flex items-center justify-center animate-float animate-delay-600">
+                  <Code className="w-6 h-6 text-cyber-purple" />
+                </div>
+                <div className="absolute top-1/2 -left-8 w-12 h-12 rounded-lg cyber-card flex items-center justify-center animate-float">
+                  <Bot className="w-5 h-5 text-cyber-yellow" />
+                </div>
+                <div className="absolute bottom-16 -right-4 w-12 h-12 rounded-lg cyber-card flex items-center justify-center animate-float animate-delay-200">
+                  <FileDown className="w-5 h-5 text-cyber-blue" />
+                </div>
               </div>
-              
-              {/* Floating icons */}
-              <div className="absolute -top-4 -right-4 w-16 h-16 rounded-lg cyber-card flex items-center justify-center animate-float animate-delay-400">
-                <Search className="w-6 h-6 text-cyber-blue" />
-              </div>
-              <div className="absolute -bottom-6 -left-6 w-16 h-16 rounded-lg cyber-card flex items-center justify-center animate-float animate-delay-600">
-                <Code className="w-6 h-6 text-cyber-purple" />
-              </div>
-              <div className="absolute top-1/2 -left-8 w-12 h-12 rounded-lg cyber-card flex items-center justify-center animate-float">
-                <Bot className="w-5 h-5 text-cyber-yellow" />
-              </div>
-              <div className="absolute bottom-16 -right-4 w-12 h-12 rounded-lg cyber-card flex items-center justify-center animate-float animate-delay-200">
-                <FileDown className="w-5 h-5 text-cyber-blue" />
-              </div>
-            </div>
+            </a>
             
             {/* Glowing effect behind the card */}
             <div className="absolute inset-0 -z-10 translate-y-4 blur-2xl opacity-20 bg-cyber-blue rounded-full"></div>

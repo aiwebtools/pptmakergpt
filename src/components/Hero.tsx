@@ -44,9 +44,9 @@ const Hero = () => {
             </div>
             
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold">
-              <span className="text-gradient-blue text-glow">PPT Presentation Crafter GPT</span>
+              <span className="text-gradient-blue text-glow tracking-tight leading-tight drop-shadow-lg">PPT Presentation Crafter GPT</span>
               <br />
-              <span className="text-white">Creates Stunning Slideshows quickly</span>
+              <span className="text-white tracking-tight mt-2 inline-block drop-shadow-sm bg-gradient-to-r from-white via-white/90 to-white/80 bg-clip-text">Creates Stunning Slideshows quickly</span>
             </h1>
             
             <p className="text-lg text-white/80">

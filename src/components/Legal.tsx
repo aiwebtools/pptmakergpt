@@ -23,6 +23,13 @@ const Legal = () => {
 
         <div className="cyber-card p-8 rounded-lg space-y-6 opacity-0 animate-slide-up">
           <div className="space-y-4">
+            <h4 className="text-xl font-semibold text-white">Educational and Research Purposes</h4>
+            <p className="text-white/70 text-sm leading-relaxed">
+              PPT Presentation Crafter is designed for informational, educational, and research purposes only. This tool is intended to assist users in learning about presentation creation and exploring AI-powered content generation capabilities.
+            </p>
+          </div>
+
+          <div className="space-y-4">
             <h4 className="text-xl font-semibold text-white">Disclaimer of Liability</h4>
             <p className="text-white/70 text-sm leading-relaxed">
               PPT Presentation Crafter is provided "as is" without any warranties, expressed or implied. AI WEB TOOLS LLC makes no representations or warranties of any kind concerning the safety, suitability, lack of viruses, inaccuracies, typographical errors, or other harmful components of this software. You use the software at your own risk, and AI WEB TOOLS LLC shall not be liable for any damages of any kind resulting from the use of this software.
@@ -60,7 +67,7 @@ const Legal = () => {
           <div className="space-y-4">
             <h4 className="text-xl font-semibold text-white">Terms of Service</h4>
             <p className="text-white/70 text-sm leading-relaxed">
-              By using this software, you agree to comply with all applicable laws and regulations and to be bound by our <a href="https://aiwebtools.ai/terms-of-services" className="text-cyber-blue hover:underline">Terms of Service</a>.
+              By using this software, you agree to comply with all applicable laws and regulations and to be bound by our <a href="https://aiwebtools.lovable.app/disclaimers" className="text-cyber-blue hover:underline">Terms of Service</a>.
             </p>
           </div>
         </div>

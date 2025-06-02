@@ -14,7 +14,7 @@ const Footer = () => {
 
   const legalLinks = [
     { name: 'Privacy Policy', href: 'https://openai.com/policies/privacy-policy/' },
-    { name: 'Terms of Service', href: 'https://aiwebtools.ai/terms-of-services' },
+    { name: 'Terms of Service', href: 'https://aiwebtools.lovable.app/disclaimers' },
   ];
 
   return (
@@ -78,6 +78,13 @@ const Footer = () => {
               </li>
             </ul>
           </div>
+        </div>
+
+        {/* Educational Disclaimer */}
+        <div className="text-center mb-8 py-4 border border-cyber-blue/20 rounded-lg bg-cyber-blue/5">
+          <p className="text-xs text-white/60">
+            This tool is for informational, educational, and research purposes only.
+          </p>
         </div>
 
         {/* Legal and Copyright */}

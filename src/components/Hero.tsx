@@ -1,3 +1,4 @@
+
 import React, { useEffect, useRef } from 'react';
 import { Presentation, ArrowRight, FileDown, Search, Code, Bot } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -49,7 +50,7 @@ const Hero = () => {
             </h1>
             
             <p className="text-lg text-white/80">
-              Turn your ideas into professional, detailed presentations in minutes. Our AI assistant builds complete slideshows with organized content, data visualization, and beautiful visuals created with GPT 4o Image generation, all through the ChatGPT interface.
+              Turn your ideas into professional, detailed presentations in minutes. Our AI assistant builds complete slideshows with organized content, data visualization, and beautiful visuals created with GPT 4o Image generation, all through the ChatGPT interface. Designed for quick PPT creation - additional editing may be needed for final polish.
             </p>
             
             <div className="flex flex-wrap gap-4">

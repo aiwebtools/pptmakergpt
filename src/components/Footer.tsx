@@ -101,7 +101,7 @@ const Footer = () => {
             ))}
           </div>
           
-          <a href="https://www.aiwebtools.ai" className="text-xs text-white/50 hover:text-cyber-blue">
+          <a href="https://aiwebtools.lovable.app/?via=aiwebtools" className="text-xs text-white/50 hover:text-cyber-blue">
             © {currentYear} AI WEB TOOLS LLC All rights reserved.
           </a>
         </div>

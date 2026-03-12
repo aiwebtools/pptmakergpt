@@ -29,7 +29,7 @@ const Footer = () => {
               </div>
               <div>
                 <h3 className="text-lg font-bold text-white">PPT Presentation Crafter</h3>
-                <p className="text-xs text-cyber-blue">Presented by <a href="https://www.aiwebtools.ai" className="hover:underline">AiWebTools.Ai</a></p>
+                <p className="text-xs text-cyber-blue">Presented by <a href="https://aiwebtools.lovable.app/?via=aiwebtools" className="hover:underline">AiWebTools.Ai</a></p>
               </div>
             </div>
             <p className="text-sm text-white/70">

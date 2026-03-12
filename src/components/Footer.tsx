@@ -109,7 +109,7 @@ const Footer = () => {
         {/* More AI Tools Button - Updated with solid background */}
         <div className="fixed bottom-6 right-6 z-50">
           <a 
-            href="https://www.aiwebtools.ai" 
+            href="https://aiwebtools.lovable.app/?via=aiwebtools" 
             className="inline-flex items-center px-4 py-2 rounded-full text-sm font-medium text-white bg-cyber-blue hover:brightness-110 transition-all duration-300 shadow-lg"
           >
             More AI Tools

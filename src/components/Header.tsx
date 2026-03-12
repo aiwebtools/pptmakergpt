@@ -36,7 +36,7 @@ const Header = () => {
           </div>
           <div>
             <h1 className="text-lg font-bold text-white">PPT Presentation Crafter</h1>
-            <p className="text-xs text-cyber-blue">Presented by <a href="https://www.aiwebtools.ai" className="hover:underline">AiWebTools.Ai</a></p>
+            <p className="text-xs text-cyber-blue">Presented by <a href="https://aiwebtools.lovable.app/?via=aiwebtools" className="hover:underline">AiWebTools.Ai</a></p>
           </div>
         </a>
 

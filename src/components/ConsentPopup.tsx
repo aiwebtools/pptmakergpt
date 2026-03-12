@@ -41,7 +41,7 @@ const ConsentPopup = () => {
         
         <div className="bg-white/5 border border-white/10 rounded-md p-4 mb-6">
           <p className="text-sm text-white/80 leading-relaxed">
-            By using PPT Presentation Crafter, you agree to our <a href="https://openai.com/policies/privacy-policy/" className="text-cyber-blue hover:underline">Privacy Policy</a> and <a href="https://aiwebtools.ai/terms-of-services" className="text-cyber-blue hover:underline">Terms of Service</a>. 
+            By using PPT Presentation Crafter, you agree to our <a href="https://openai.com/policies/privacy-policy/" className="text-cyber-blue hover:underline">Privacy Policy</a> and <a href="https://aiwebtools.lovable.app/disclaimers" className="text-cyber-blue hover:underline">Terms of Service</a>. 
             The tool uses AI to generate content and may process your inputs to create presentations. 
             You are responsible for reviewing all generated content before use in professional or commercial contexts.
           </p>

@@ -9,7 +9,7 @@ const Footer = () => {
     { name: 'PPT Presentation Crafter', href: 'https://chatgpt.com/g/g-3Py9TlUa1-ppt-presentation-crafter' },
     { name: 'FAQ', href: '#faq' },
     { name: 'Disclaimer', href: '#disclaimer' },
-    { name: 'More AI Tools', href: 'https://www.aiwebtools.ai' },
+    { name: 'More AI Tools', href: 'https://aiwebtools.lovable.app/?via=aiwebtools' },
   ];
 
   const legalLinks = [
@@ -29,7 +29,7 @@ const Footer = () => {
               </div>
               <div>
                 <h3 className="text-lg font-bold text-white">PPT Presentation Crafter</h3>
-                <p className="text-xs text-cyber-blue">Presented by <a href="https://www.aiwebtools.ai" className="hover:underline">AiWebTools.Ai</a></p>
+                <p className="text-xs text-cyber-blue">Presented by <a href="https://aiwebtools.lovable.app/?via=aiwebtools" className="hover:underline">AiWebTools.Ai</a></p>
               </div>
             </div>
             <p className="text-sm text-white/70">
@@ -101,7 +101,7 @@ const Footer = () => {
             ))}
           </div>
           
-          <a href="https://www.aiwebtools.ai" className="text-xs text-white/50 hover:text-cyber-blue">
+          <a href="https://aiwebtools.lovable.app/?via=aiwebtools" className="text-xs text-white/50 hover:text-cyber-blue">
             © {currentYear} AI WEB TOOLS LLC All rights reserved.
           </a>
         </div>
@@ -109,7 +109,7 @@ const Footer = () => {
         {/* More AI Tools Button - Updated with solid background */}
         <div className="fixed bottom-6 right-6 z-50">
           <a 
-            href="https://www.aiwebtools.ai" 
+            href="https://aiwebtools.lovable.app/?via=aiwebtools" 
             className="inline-flex items-center px-4 py-2 rounded-full text-sm font-medium text-white bg-cyber-blue hover:brightness-110 transition-all duration-300 shadow-lg"
           >
             More AI Tools

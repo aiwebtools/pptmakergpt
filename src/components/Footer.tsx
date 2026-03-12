@@ -9,7 +9,7 @@ const Footer = () => {
     { name: 'PPT Presentation Crafter', href: 'https://chatgpt.com/g/g-3Py9TlUa1-ppt-presentation-crafter' },
     { name: 'FAQ', href: '#faq' },
     { name: 'Disclaimer', href: '#disclaimer' },
-    { name: 'More AI Tools', href: 'https://www.aiwebtools.ai' },
+    { name: 'More AI Tools', href: 'https://aiwebtools.lovable.app/?via=aiwebtools' },
   ];
 
   const legalLinks = [
